@@ -3,14 +3,14 @@ package prTraveling;
 public class Usuario {
     private String nombre;
     private String correoElectronico;
-    private String contraseña;
+    private String contrasena;
     private String ubicacion;
 
     // Constructor
-    public Usuario(String nombre, String correoElectronico, String contraseña, String ubicacion) {
+    public Usuario(String nombre, String correoElectronico, String contrasena, String ubicacion) {
         this.nombre = nombre;
         this.correoElectronico = correoElectronico;
-        this.contraseña = contraseña;
+        this.contrasena = contrasena;
         this.ubicacion = ubicacion;
     }
 
@@ -31,12 +31,12 @@ public class Usuario {
         this.correoElectronico = correoElectronico;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getContrasena() {
+        return contrasena;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
+    public void setContraseña(String contrasena) {
+        this.contrasena = contrasena;
     }
 
     public String getUbicacion() {
