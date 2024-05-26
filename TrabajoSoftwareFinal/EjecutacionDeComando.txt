@@ -1,0 +1,4 @@
+java -jar junit-platform-console-standalone-<version>.jar --scan-classpath --select-package Test
+
+Asegúrate de reemplazar <version> con la versión específica de JUnit Platform Console Standalone que estás utilizando.
+En nuestro caso la version era la 5.9.3 pero no sabemos cual tiene instalada
